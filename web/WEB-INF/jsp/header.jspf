@@ -1,0 +1,15 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page pageEncoding="UTF-8" %>
+<header>
+    <link href="/css/ada.css" rel="stylesheet" type="text/css">
+    <h1 class="project-title"></h1>
+
+    <form class="search-form" action="search">
+        <div class="input-group">
+            <label>
+                <input type="text" name="text" value="${text}" placeholder="Search"/>
+            </label>
+            <button class="unit" type="submit" value="♥">♥</button>
+        </div>
+    </form>
+</header>
